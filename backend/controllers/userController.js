@@ -29,13 +29,11 @@ export const registerUser = async (req, res) => {
       password: hashedPassword,
     });
 
-    res
-      .status(201)
-      .json({
-        success: true,
-        message: "User registered successfully",
-        data: user,
-      });
+    res.status(201).json({
+      success: true,
+      message: "User registered successfully",
+      data: user,
+    });
   } catch (error) {
     console.error("Register Error:", error.message);
     res.status(500).json({ success: false, message: "Server error" });
@@ -66,13 +64,11 @@ export const loginUser = async (req, res) => {
         .json({ success: false, message: "Invalid credentials" });
     }
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Login successful",
-        data: { firstName: user.firstName },
-      });
+    res.status(200).json({
+      success: true,
+      message: "Login successful",
+      data: { firstName: user.firstName },
+    });
   } catch (error) {
     console.error("Login Error:", error.message);
     res.status(500).json({ success: false, message: "Server error" });

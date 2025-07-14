@@ -12,6 +12,7 @@ import Explore from "./components/Explore";
 import Login from "./components/Pages/Login";
 import Wishlist from "./components/Pages/Wishlist";
 import Cart from "./components/Pages/Cart";
+import Details from "./components/Pages/Details";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
             </>
           }
         />
+        <Route path="/necklace/:id" element={<Details />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/login" element={<Login />} />
