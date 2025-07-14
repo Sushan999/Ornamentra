@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 const Login = () => {
   const [activeTab, setActiveTab] = useState("signin");
+  const navigate = useNavigate();
 
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
@@ -19,15 +20,29 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post(
+      const response = await axios.post(
         "http://localhost:3000/api/user/login",
         {
           email: loginEmail,
           password: loginPassword,
         }
       );
-      console.log(data);
-      alert(data.message || "Login successful");
+
+      // Depending on your backend, user info might be in response.data.data or response.data.user
+      // Adjust accordingly:
+      const userData = response.data.data || response.data.user;
+
+      if (!userData) {
+        alert("Login successful but user data missing.");
+        return;
+      }
+
+      localStorage.setItem("user", JSON.stringify(userData));
+
+      alert(response.data.message || "Login successful");
+
+      // Redirect to profile page
+      navigate("/profile");
     } catch (err) {
       console.error(err.response?.data?.message || err.message);
       alert("Login failed: " + (err.response?.data?.message || err.message));
@@ -41,7 +56,6 @@ const Login = () => {
         "http://localhost:3000/api/user/register",
         formData
       );
-      console.log(data);
       alert(data.message || "Registration successful");
     } catch (err) {
       console.error(err.response?.data?.message || err.message);
@@ -80,7 +94,6 @@ const Login = () => {
 
         {/* Tab Content */}
         <div className="tab-content-wrapper min-h-[600px]">
-          {/* Sign In Form */}
           {activeTab === "signin" && (
             <form onSubmit={handleLogin} className="space-y-4">
               <input
@@ -108,7 +121,6 @@ const Login = () => {
             </form>
           )}
 
-          {/* Sign Up Form */}
           {activeTab === "signup" && (
             <form onSubmit={handleRegister} className="space-y-4">
               <div className="grid grid-cols-2 gap-4">

@@ -67,7 +67,15 @@ export const loginUser = async (req, res) => {
     res.status(200).json({
       success: true,
       message: "Login successful",
-      data: { firstName: user.firstName },
+      data: {
+        _id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        dob: user.dob,
+        phone: user.phone,
+        // never send password!
+      },
     });
   } catch (error) {
     console.error("Login Error:", error.message);

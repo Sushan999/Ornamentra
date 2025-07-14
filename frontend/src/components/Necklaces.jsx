@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Necklaces = () => {
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div id="necklace" className="container mx-auto px-4 py-10">
       <Title
         title="OUR NECKLACES"
         subtitle="Elevate Every Look with a Perfect Necklace"

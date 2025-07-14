@@ -89,28 +89,27 @@ export const rings = [
     img2: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069608_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img3: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069604_AV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img4: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069605_AV_2_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
-    price: 2950,
+    price: 4950,
   },
   {
     _id: "2",
-    name: "Diamond Wire Ring",
+    name: "Gold, Platinum dimaond Ring",
     description:
-      "This is an expression of love’s endless potential. Inspired by an archival bracelet from 1975, T is an homage to the House’s iconic motif and the spirit of New York, which founder Charles Lewis Tiffany regarded as the place of promise and possibilities. Style this diamond ring with other Tiffany rings for a striking statement, or simply wear it on its own.",
+      "Sixteen Stone by Tiffany is an expression of love’s nurturing forces. Conceived by legendary designer Jean Schlumberger in 1959, the collection’s cross-stitch motif was inspired by his family’s roots in textiles. Round brilliant diamonds alternate with golden Xs, creating this dazzling design",
     detail: [
-      "8k gold with round brilliant diamonds",
-      "Carat total weight .13",
-
-      "Product number:60147091",
+      "18k gold and platinum with round brilliant diamonds",
+      "Carat total weight 1.14",
+      "Product number:60099365",
     ],
-    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-tdiamond-wire-ring-33263635_991760_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
-    img2: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069608_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
-    img3: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069604_AV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
-    img4: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069605_AV_2_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/sixteen-stone-by-tiffanyring-10933099_1031670_ED_M.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img2: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/sixteen-stone-by-tiffanyring-10933099_1031670_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=0.1,0.1,0.8,0.8&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
+    img3: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/sixteen-stone-by-tiffanyring-10933099_1084179_AV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
+    img4: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/sixteen-stone-by-tiffanyring-10933099_1031669_AV_2_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     price: 2950,
   },
   {
     _id: "3",
-    name: "Diamond Wire Ring",
+    name: "Silver Knot Ring",
     description:
       "This is an expression of love’s endless potential. Inspired by an archival bracelet from 1975, T is an homage to the House’s iconic motif and the spirit of New York, which founder Charles Lewis Tiffany regarded as the place of promise and possibilities. Style this diamond ring with other Tiffany rings for a striking statement, or simply wear it on its own.",
     detail: [
@@ -119,11 +118,11 @@ export const rings = [
 
       "Product number:60147091",
     ],
-    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-tdiamond-wire-ring-33263635_991760_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-knotring-70302527_1034357_ED_M.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
     img2: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069608_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img3: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069604_AV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img4: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069605_AV_2_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
-    price: 2950,
+    price: 5950,
   },
   {
     _id: "4",
@@ -140,6 +139,77 @@ export const rings = [
     img2: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069608_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img3: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069604_AV_1_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
     img4: "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/tiffany-tdiamond-wire-ring-33263635_1069605_AV_2_M.jpg?&op_usm=1.75,1.0,6.0&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
-    price: 2950,
+    price: 4950,
+  },
+];
+
+export const earrings = [
+  {
+    _id: "1",
+    name: "Victoria Earrings",
+    description:
+      "Inspired by the fire and radiance of our superlative diamonds, Tiffany Victoria uses a unique combination of cuts for a distinctly romantic sensibility. The beautiful shape of these classic diamond earrings allows the stones to play off of each other's glorious sheen.",
+    detail: [
+      "8k gold with round brilliant diamonds",
+      "Carat total weight .13",
+
+      "Product number:60147091",
+    ],
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img2: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img3: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img4: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    price: 6950,
+  },
+  {
+    _id: "2",
+    name: "Victoria Earrings",
+    description:
+      "Inspired by the fire and radiance of our superlative diamonds, Tiffany Victoria uses a unique combination of cuts for a distinctly romantic sensibility. The beautiful shape of these classic diamond earrings allows the stones to play off of each other's glorious sheen.",
+    detail: [
+      "8k gold with round brilliant diamonds",
+      "Carat total weight .13",
+
+      "Product number:60147091",
+    ],
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img2: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img3: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img4: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    price: 6950,
+  },
+  {
+    _id: "3",
+    name: "Victoria Earrings",
+    description:
+      "Inspired by the fire and radiance of our superlative diamonds, Tiffany Victoria uses a unique combination of cuts for a distinctly romantic sensibility. The beautiful shape of these classic diamond earrings allows the stones to play off of each other's glorious sheen.",
+    detail: [
+      "8k gold with round brilliant diamonds",
+      "Carat total weight .13",
+
+      "Product number:60147091",
+    ],
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img2: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img3: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img4: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    price: 6950,
+  },
+  {
+    _id: "4",
+    name: "Victoria Earrings",
+    description:
+      "Inspired by the fire and radiance of our superlative diamonds, Tiffany Victoria uses a unique combination of cuts for a distinctly romantic sensibility. The beautiful shape of these classic diamond earrings allows the stones to play off of each other's glorious sheen.",
+    detail: [
+      "8k gold with round brilliant diamonds",
+      "Carat total weight .13",
+
+      "Product number:60147091",
+    ],
+    img: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img2: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img3: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    img4: "https://media.tiffany.com/is/image/Tiffany/EcomBrowseM/tiffany-victoriaearrings-11833187_1016110_ED.jpg?defaultImage=NoImageAvailableInternal&fmt=webp",
+    price: 6950,
   },
 ];

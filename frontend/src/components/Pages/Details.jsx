@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { necklaces } from "../../assets/assets.js";
+import { necklaces, rings, earrings } from "../../assets/assets.js";
 
 const Details = () => {
-  const { id } = useParams();
-  const product = necklaces.find((item) => item._id === id);
+  const { category, id } = useParams();
   const [quantity, setQuantity] = useState(1);
+
+  let products;
+  if (category === "necklace") products = necklaces;
+  else if (category === "ring") products = rings;
+  else if (category === "earring") products = earrings;
+  else products = [];
+
+  const product = products.find((item) => item._id === id);
 
   if (!product) {
     return (
@@ -18,11 +25,14 @@ const Details = () => {
   const increaseQty = () => setQuantity((prev) => prev + 1);
   const decreaseQty = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
 
+  const totalPrice = product.price * quantity;
+
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-16">
       <div className="grid grid-cols-2 gap-4">
-        {[product.img, product.img2, product.img3, product.img4].map(
-          (img, i) => (
+        {[product.img, product.img2, product.img3, product.img4]
+          .filter(Boolean)
+          .map((img, i) => (
             <div key={i} className="w-full h-[280px] md:h-[300px]">
               <img
                 src={img}
@@ -30,8 +40,7 @@ const Details = () => {
                 className="w-full h-full object-cover rounded-xl shadow-sm hover:scale-105 transition-transform"
               />
             </div>
-          )
-        )}
+          ))}
       </div>
 
       <div className="space-y-6">
@@ -43,6 +52,7 @@ const Details = () => {
           🚚 Complimentary Shipping & Returns
         </div>
 
+        {/* Quantity selector */}
         <div className="flex items-center gap-4 border-t pt-4">
           <span className="text-gray-700 text-sm font-medium">Quantity</span>
           <div className="flex items-center border rounded px-3 py-1">
@@ -56,16 +66,15 @@ const Details = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
+        {/* Price section */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
           <div className="text-xl font-semibold">
-            ${product.price.toLocaleString()}
+            Total: ${totalPrice.toLocaleString()}
           </div>
           <button className="bg-black text-white px-8 py-3 text-sm uppercase font-semibold hover:bg-gray-800 transition">
             Add to Bag
           </button>
         </div>
-
-        <div className="mt-2"></div>
 
         <div className="pt-6 border-t">
           <h3 className="text-md font-semibold mb-2">Description & Details</h3>
